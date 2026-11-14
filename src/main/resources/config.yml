@@ -1,0 +1,4 @@
+animation-enabled: true
+bot-delay-ticks: 14
+disconnect-grace-seconds: 90
+max-rooms: 100

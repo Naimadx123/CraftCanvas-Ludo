@@ -1,0 +1,11 @@
+.gradle/
+.kotlin/
+.idea/
+*.iml
+build/
+lib/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+hs_err_pid*

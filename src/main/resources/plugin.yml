@@ -1,0 +1,17 @@
+name: CraftCanvasLudo
+version: '${version}'
+main: zone.vao.craftcanvas.ludo.LudoPlugin
+api-version: '1.21.11'
+folia-supported: true
+depend: [CraftCanvas]
+description: Ludo for the CraftCanvas handheld
+commands:
+  ludo:
+    description: CraftCanvas Ludo
+    usage: /ludo
+    permission: ludo.play
+permissions:
+  ludo.admin:
+    default: op
+  ludo.play:
+    default: true
